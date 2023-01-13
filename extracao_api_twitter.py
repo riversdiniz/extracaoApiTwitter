@@ -31,9 +31,7 @@ json_response = response.json()
 
 print(json.dumps(json_response, indent=4, sort_keys=True))
 
-
 # Paginate
-
 while "next_token" in json_response.get("meta",{}):
     next_token = json_response['meta']['next_token']
     url = f"{url_raw}&next_token={next_token}"
