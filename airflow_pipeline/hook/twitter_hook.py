@@ -69,5 +69,5 @@ if __name__ == "__main__":
     start_time = (datetime.now() + timedelta(days=-1)).date().strftime(TIMESTAMP_FOMART)
     query = "datascience"
 
-    for pg in TwitterHook(end_time, start_time, query).run():
-        print(json.dumps(pg, indent=4, sort_keys=True))
+    for pgnas in TwitterHook(end_time, start_time, query).run():
+        print(json.dumps(pgnas, indent=4, sort_keys=True))
