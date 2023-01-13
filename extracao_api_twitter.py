@@ -3,7 +3,7 @@ import requests
 import json
 import os
 
-#Montando url
+# Montando url
 TIMESTAMP_FOMART = "%Y-%m-%dT%H:%M:%S.00Z" # ISO 8601/RFC 3339
 
 # Extraido Dados de 7 dias Atras
