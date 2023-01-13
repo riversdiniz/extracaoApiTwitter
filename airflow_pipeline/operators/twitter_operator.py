@@ -37,4 +37,5 @@ if __name__ == "__main__":
         to = TwitterOperator(query=query, start_time=start_time, end_time=end_time, task_id="test_run")
         ti = TaskInstance(task=to)
         to.execute(ti.task_id)
+        
 
