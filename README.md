@@ -13,4 +13,7 @@ exemplo:
 
 $ export BEARER_TOKEN=AAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCC123
 
+![datalake2](https://user-images.githubusercontent.com/27660298/213286669-f8c86e64-41ea-45c4-b567-b261bde63415.jpg)
+
+![image](https://user-images.githubusercontent.com/27660298/213286059-fd75a9c8-190e-40e3-82ba-03109552eabc.png)
 
